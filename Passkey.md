@@ -2,33 +2,58 @@ Explain what a passkey is including costs, benefits, and a comparison to other a
 
 # Gemini
 
-What is a Passkey?
+## What is a Passkey?
 
 A passkey is a new, passwordless method of logging into apps and websites. It's designed to be simpler, faster, and more secure than traditional passwords.   
 Technically, it's a cryptographic key pair - one public key registered with the online service and one private key that remains on your device. Authentication happens when you prove you have the private key, usually through biometrics (fingerprint, face scan) or a device PIN/pattern.   
-Costs and Benefits of Passkeys
 
-Costs:
-Initial Setup: May require some effort to set up initially across your accounts and devices.
-Device Dependency: Relies heavily on having your device. Losing your primary device could temporarily lock you out of accounts until you regain access or use account recovery options.
-Adoption: Not universally supported yet, though adoption is growing.
-Benefits:
-Phishing Resistant: Passkeys are much harder to phish since they aren't transmitted over the network like passwords.   
-No Password Reuse: Each passkey is unique to each site/app, eliminating the risk of one leaked password compromising multiple accounts.   
-Stronger Security: Tied to your device and biometrics, making them harder to steal or guess.   
-Ease of Use: No need to remember complex passwords, just unlock your device.   
-Built-in 2FA: Many implementations require both the private key on your device and your biometric or device PIN, essentially providing two-factor authentication without the extra steps.   
-Specific Examples of Passkey Usage
 
-Mac Keychain: On macOS devices, passkeys can be stored securely in the Keychain, alongside passwords. When you visit a compatible site, the Keychain will prompt you to authenticate with biometrics or your device password.
-Password Vault Apps: Many password managers like 1Password, Dashlane, and Bitwarden are adding support for passkeys, allowing you to manage them alongside your passwords.   
-Other: Several major platforms and services already support passkeys including Google, Microsoft, Apple, PayPal, eBay, and more.   
-Comparison to Other Methods
+## Costs and Benefits of Passkeys
 
-2FA (Two-Factor Authentication): Passkeys often offer a similar level of security to 2FA, but with a simpler user experience since the second factor (biometrics or device PIN) is often built-in.   
-Passwords: Passkeys are superior to passwords in terms of security and ease of use. Passwords are vulnerable to phishing, brute-force attacks, and reuse across multiple sites.   
-Hardware Keys (YubiKey, etc.): Hardware keys provide strong security and phishing resistance, similar to passkeys. However, they require carrying a physical device and may not be as convenient for everyday use on mobile devices.   
-UbiKey: Similar to other hardware keys, UbiKeys offer strong security but may be less convenient than passkeys for mobile use.
+### Costs:
+#### Initial Setup
+May require some effort to set up initially across your accounts and devices.
+#### Device Dependency
+Relies heavily on having your device. Losing your primary device could temporarily lock you out of accounts until you regain access or use account recovery options.
+#### Adoption
+Not universally supported yet, though adoption is growing.
+
+### Benefits:
+#### Phishing Resistant
+Passkeys are much harder to phish since they aren't transmitted over the network like passwords.   
+
+#### No Password Reuse
+Each passkey is unique to each site/app, eliminating the risk of one leaked password compromising multiple accounts.   
+#### Stronger Security
+Tied to your device and biometrics, making them harder to steal or guess.   
+#### Ease of Use: 
+No need to remember complex passwords, just unlock your device.   
+#### Built-in 2FA: 
+Many implementations require both the private key on your device and your biometric or device PIN, essentially providing two-factor authentication without the extra steps.   
+
+## Specific Examples of Passkey Usage
+
+### Mac Keychain 
+
+On macOS devices, passkeys can be stored securely in the Keychain, alongside passwords. When you visit a compatible site, the Keychain will prompt you to authenticate with biometrics or your device password.
+
+### Password Vault Apps
+Many password managers like 1Password, Dashlane, and Bitwarden are adding support for passkeys, allowing you to manage them alongside your passwords.   
+### Other
+
+Several major platforms and services already support passkeys including Google, Microsoft, Apple, PayPal, eBay, and more.   
+
+## Comparison to Other Methods
+
+### 2FA (Two-Factor Authentication): 
+Passkeys often offer a similar level of security to 2FA, but with a simpler user experience since the second factor (biometrics or device PIN) is often built-in.  
+
+### Passwords: 
+Passkeys are superior to passwords in terms of security and ease of use. Passwords are vulnerable to phishing, brute-force attacks, and reuse across multiple sites. 
+  
+### Hardware Keys
+Hardware keys provide strong security and phishing resistance, similar to passkeys. However, they require carrying a physical device and may not be as convenient for everyday use on mobile devices.   
+
 In summary, passkeys represent a significant step forward in authentication, offering stronger security and a better user experience than traditional passwords. While not yet universally supported, their adoption is growing rapidly, and they are poised to become the standard for secure logins in the near future.   
 
 # Claude
