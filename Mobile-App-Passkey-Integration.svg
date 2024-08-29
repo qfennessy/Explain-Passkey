@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Mobile App -->
+  <rect x="350" y="50" width="100" height="60" fill="#4CAF50" />
+  <text x="400" y="85" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Mobile App</text>
+
+  <!-- WebAuthn API -->
+  <rect x="325" y="150" width="150" height="60" fill="#2196F3" />
+  <text x="400" y="185" font-family="Arial" font-size="14" fill="white" text-anchor="middle">WebAuthn API</text>
+
+  <!-- Passkey Providers -->
+  <rect x="50" y="250" width="200" height="60" fill="#FFC107" />
+  <text x="150" y="285" font-family="Arial" font-size="14" fill="black" text-anchor="middle">Apple Passkey System</text>
+
+  <rect x="300" y="250" width="200" height="60" fill="#FF5722" />
+  <text x="400" y="285" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Google Passkey System</text>
+
+  <rect x="550" y="250" width="200" height="60" fill="#9C27B0" />
+  <text x="650" y="285" font-family="Arial" font-size="14" fill="white" text-anchor="middle">1Password</text>
+
+  <!-- Backend Server -->
+  <rect x="325" y="400" width="150" height="60" fill="#607D8B" />
+  <text x="400" y="435" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Backend Server</text>
+
+  <!-- Connections -->
+  <line x1="400" y1="110" x2="400" y2="150" stroke="black" stroke-width="2" />
+  <line x1="400" y1="210" x2="400" y2="250" stroke="black" stroke-width="2" />
+  <line x1="400" y1="210" x2="150" y2="250" stroke="black" stroke-width="2" />
+  <line x1="400" y1="210" x2="650" y2="250" stroke="black" stroke-width="2" />
+  <line x1="400" y1="310" x2="400" y2="400" stroke="black" stroke-width="2" />
+
+  <!-- Labels -->
+  <text x="410" y="140" font-family="Arial" font-size="12" fill="black">Uses</text>
+  <text x="250" y="240" font-family="Arial" font-size="12" fill="black">Interacts with</text>
+  <text x="550" y="240" font-family="Arial" font-size="12" fill="black">Interacts with</text>
+  <text x="410" y="380" font-family="Arial" font-size="12" fill="black">Communicates with</text>
+</svg>
